@@ -1,0 +1,218 @@
+/* corps de la page */
+
+@font-face {
+    font-family: 'candelabold';
+    src: url('CandelaBold-webfont.eot');
+    src: url('CandelaBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('CandelaBold-webfont.woff2') format('woff2'),
+         url('CandelaBold-webfont.woff') format('woff'),
+         url('CandelaBold-webfont.ttf') format('truetype'),
+         url('CandelaBold-webfont.svg#candelabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body
+{
+	font-family: 'candelabold', arial, sans-serif;
+	color: #404040;
+}
+
+/* bloc de la page */
+#wrapper{
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+
+/* sidebar */
+aside{
+    width: 35%;
+    height: 2550px;
+    padding: 40px 0;
+    background-color: #0097A7;
+    position: relative;
+
+}
+
+#photo{
+    margin: 40px;
+    text-align: center;
+}
+
+img{
+    width: 224px;
+    height: 224px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: solid 4px rgb(64, 64, 64,0.3);
+}
+
+aside h2{
+    text-align: center;
+    padding: 5px 0;
+    color: #0097A7;
+    background-color: #404040;
+    font-size: 1.8em;
+}
+
+#contact p{
+    font-size: 1.1em;
+    margin: 45px;
+}
+
+#about_me p{
+    font-size: 1.1em;
+    margin: 45px;
+    text-align: justify;
+}
+
+#hobbies{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+
+#hobbies ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px; 
+}
+
+#hobbies i{
+    font-size: 4em;
+    padding: 10px;
+}
+
+
+/* contenu principal */
+section{
+    width: 65%;
+    padding: 60px 30px 40px 60px;
+}
+
+h1{
+    font-size: 4em;
+    margin-bottom: 0;
+}
+
+section i{
+    color: #0097A7;
+}
+
+#title{
+    margin-bottom: 60px;
+}
+
+.blue{
+    color: #0097A7;
+}
+
+.black, h2{
+    color: black;
+}
+
+#subtitle{
+    margin-top: 0;
+    color:#404040;
+}
+
+section h2{
+    font-size: 1.8em;
+}
+
+#underline{
+    border-bottom: solid 2px #0097A7;
+}
+
+.main_title{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    border-bottom: solid 2px #0097A7;
+}
+
+.main_title i{
+    font-size: 2.7em;
+    margin-right: 40px;
+}
+
+.date_target, .date_dot{
+    display: flex;
+    width: 35%;
+    align-items: top;
+    padding-top: 15px;
+}
+
+.date_target p, .date_dot p{
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-top: 0;
+}
+
+.date_target i{
+    font-size: 1.1em;
+}
+
+.date_dot i{
+    font-size: 0.7em;
+}
+
+.date_target i, .date_dot i{
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.content{
+    display: flex;
+    align-items: top;
+}
+
+.description{
+    width: 65%;
+}
+
+.description ul{
+    font-size: 1.1em;
+}
+h3{
+    font-size: 1.5em;
+}
+
+h4{
+    font-size: 1.1em;
+    font-weight: normal;
+}
+
+#recommandation p{
+    width: 50%;
+    font-size: 1.1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
