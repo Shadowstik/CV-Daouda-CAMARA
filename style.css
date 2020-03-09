@@ -1,10 +1,9 @@
 /* corps de la page */
 
-@font-face {
+@font-face{
     font-family: 'candelabold';
     src: url('CandelaBold-webfont.eot');
     src: url('CandelaBold-webfont.eot?#iefix') format('embedded-opentype'),
-         /*url('CandelaBold-webfont.woff2') format('woff2'),*/
          url('CandelaBold-webfont.woff') format('woff'),
          url('CandelaBold-webfont.ttf') format('truetype'),
          url('CandelaBold-webfont.svg#candelabold') format('svg');
@@ -12,8 +11,7 @@
     font-style: normal;
 }
 
-body
-{
+body{
 	font-family: 'candelabold', arial, sans-serif;
 	color: #404040;
 }
@@ -32,7 +30,6 @@ aside{
     padding: 20px 0;
     background-color: #0097A7;
     position: relative;
-
 }
 
 #photo{
@@ -41,7 +38,7 @@ aside{
     margin-bottom: 0;
 }
 
-img{
+aside img{
     width: 224px;
     height: 224px;
     overflow: hidden;
@@ -191,6 +188,7 @@ section h2{
 .description ul{
     font-size: 1.1em;
 }
+
 h3{
     font-size: 1.5em;
 }
@@ -205,12 +203,9 @@ h4{
     font-size: 1.1em;
 }
 
+/* responsive 1277px max*/
 
-
-
-/* responsive 1278px max*/
-
-@media all and (max-device-width: 1278px){
+@media all and (max-device-width: 1277px){
     .blue{
         color: red;
     }
@@ -230,17 +225,16 @@ h4{
 
     #photo_secret{
         display: contents;
-        border: solid 1px red; 
     }
 
     #secret{
         display: flex;
         align-items: center;
-        margin: 30px 0;
+        margin: 50px;
     }
 
     #photo_secret img{
-        margin: 0 20px 0 30px;
+        margin-right: 30px;
         border: solid 4px #0097A7;
     }
 
@@ -260,12 +254,20 @@ h4{
         padding: 0 10px 0 25px;
     }
 
+    #recommandation{
+        margin-bottom: 20px;
+    }
+
     .main_title i{
         font-size: 3em;
     }
 
     .date_target i{
-    font-size: 1.4em;
+        font-size: 1.4em;
+    }
+
+    .date_target i, .dot i{
+        margin-right: 10px;
     }
 
     h3{
@@ -277,7 +279,7 @@ h4{
     }
 
     .date_target p, .date_dot p{
-        font-size: 1.3em;
+        font-size: 1.4em;
     }
 
     .date_target, .date_dot{
