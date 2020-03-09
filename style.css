@@ -208,9 +208,9 @@ h4{
 
 
 
-/* responsive 1024px max*/
+/* responsive 1278px max*/
 
-@media all and (max-device-width: 1024px){
+@media all and (max-device-width: 1278px){
     .blue{
         color: red;
     }
@@ -225,59 +225,77 @@ h4{
         width: 100%;
         height: auto;
         margin: auto;
-        padding: 0 30px;
+        padding: 0;
     }
 
     #photo_secret{
-        display: contents; 
+        display: contents;
+        border: solid 1px red; 
     }
 
     #secret{
         display: flex;
         align-items: center;
-        margin-bottom: 30px;
+        margin: 30px 0;
     }
 
     #photo_secret img{
-        margin-right: 60px;
+        margin: 0 20px 0 30px;
+        border: solid 4px #0097A7;
     }
 
     h1{
-        font-size: 5em;
+        font-size: 4.5em;
+    }
+
+    #underline, .main_title{
+        border-bottom: solid 3px #0097A7;
     }
 
     section h2{
         font-size: 2.4em;
     }
 
+    #education, #experience, #recommandation{
+        padding: 0 10px 0 25px;
+    }
+
     .main_title i{
         font-size: 3em;
+    }
+
+    .date_target i{
+    font-size: 1.4em;
     }
 
     h3{
         font-size: 1.8em;
     }
 
-    .date_target p, .date_dot p, #recommandation p, .description ul, h4{
-        font-size: 1.4em;
+    #recommandation p, .description ul, h4, #contact p, #about_me p{
+        font-size: 1.5em;
+    }
+
+    .date_target p, .date_dot p{
+        font-size: 1.3em;
     }
 
     .date_target, .date_dot{
-        width: 25%;
+        width: 30%;
     }
 
     .description{
-        width: 75%;
+        width: 70%;
     }
 
     aside{
         width: 100%;
         height: auto;
-        margin: 0;
+        padding: 0;
     }
 
-    aside p{
-        font-size: 1.4em;
+    aside h2{
+        font-size: 2.4em;
     }
 
     #photo{
@@ -293,6 +311,11 @@ h4{
         position: static;
     }
 
+    #hobbies ul{
+        margin: 0 0 30px;
+        padding: 0;
+    }
+
 /* responsive 480px max*/
 
 @media all and (max-device-width: 480px){
@@ -300,19 +323,77 @@ h4{
         color: green;
     }
 
-    .main_title i, .date_target i, .date_dot i{
+    #photo_secret img{
+        border: solid 6px #0097A7;
+    }
+
+    .date_target i, .date_dot i{
         display: none;
     }
 
     .main_title{
         justify-content: center;
         padding: 0;
-        border: solid 1px red;
+        background-color: #0097A7;
+    }
+
+    .main_title i{
+        margin-right: 10px; 
     }
 
     #secret{
         flex-direction: column;
-        margin-top: 60px;
+        margin: 60px 0;
+    }
+
+    #title{
+        margin: 0;
+    }
+
+    h1{
+        font-size: 6em;
+    }
+
+    #subtitle{
+        text-align: center;
+    }
+
+    #underline{
+        border-bottom: solid 5px #0097A7;
+    }
+
+    section h2{
+        font-size: 3.3em;
+        margin: 10px;
+    }
+
+    .date_target, .date_dot{
+        width: auto;
+        font-size: 1.3em;
+        text-align: center;
+    }
+
+    .date_dot{
+        border-top: solid 5px #0097A7;
+        padding-top: 30px;
+    }
+
+    h3{
+        font-size: 2.9em;
+        text-align: center;
+        margin: 0;
+        color: #0097A7;
+    }
+
+    h4{
+        font-size: 2.2em;
+        text-align: center;
+        margin: 0;
+    }
+
+    .main_title i{
+        color: black;
+        font-size: 3.3em;
     }
 
     .content{
@@ -322,17 +403,13 @@ h4{
 
     .content ul{
         list-style-type: none;
-        font-size: 2em;
+        font-size: 2.4em;
         padding: 0;
-    }
-
-    .date_target, .date_dot{
-        font-size: 1.3em;
-        text-align: center;
     }
 
     .content p{
         font-size: 1.5em;
+        margin: 20px 0;
     }
 
     #photo_secret img{
@@ -340,42 +417,24 @@ h4{
         height: 400px;
     }
 
-    h1{
-        font-size: 5em;
-    }
-
-    #subtitle{
-        text-align: center;
-    }
-
-    section h2{
-        font-size: 2.8em;
-    }
-
-    h3{
-        font-size: 2.1em;
-        text-align: center;
-    }
-
-    h4{
-        font-size: 1.7em;
-        text-align: center;
-    }
-
     .description{
         width: 100%;
+        margin-bottom: 25px;
     }
 
     #recommandation p{
-        font-size: 2em;
+        font-size: 2.4em;
         width: 100%;
         text-align: center;
     }
 
+    #recommandation{
+        margin-bottom: 30px;
+    }
 
-
-
-
+    #contact p, #about_me p, #hobbies ul{
+        margin: 30px;
+    }
 
 }
 
