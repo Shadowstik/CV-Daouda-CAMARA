@@ -27,15 +27,17 @@ body{
 aside{
     width: 35%;
     height: 2575px;
-    padding: 20px 0;
+    padding: 0;
     background-color: #0097A7;
+    display: flex;
+    flex-direction: column;
     position: relative;
 }
 
 #photo{
-    padding: 40px;
+    padding: 80px 40px 50px;
     text-align: center;
-    margin-bottom: 0;
+    margin: 0;
 }
 
 aside img{
@@ -49,7 +51,7 @@ aside img{
 aside h2{
     text-align: center;
     padding: 5px 0;
-    margin-top: 0;
+    margin: 0;
     color: #0097A7;
     background-color: #404040;
     font-size: 1.8em;
@@ -57,12 +59,14 @@ aside h2{
 
 #contact p{
     font-size: 1.1em;
-    margin: 45px;
+    padding: 45px;
+    margin: 0;
 }
 
 #about_me p{
     font-size: 1.1em;
-    margin: 45px;
+    padding: 45px;
+    margin: 0;
     text-align: justify;
 }
 
@@ -76,7 +80,8 @@ aside h2{
     list-style-type: none;
     display: flex;
     justify-content: center;
-    padding: 10px; 
+    padding: 35px;
+    margin: 0; 
 }
 
 #hobbies i{
@@ -100,7 +105,7 @@ section{
     height: 224px;
     overflow: hidden;
     border-radius: 50%;
-    border: solid solid 2px #0097A7;
+    border: solid 2px #0097A7;
 }
 
 h1{
@@ -153,7 +158,6 @@ section h2{
 .date_target, .date_dot{
     display: flex;
     width: 35%;
-    align-items: top;
     padding-top: 15px;
 }
 
@@ -178,7 +182,6 @@ section h2{
 
 .content{
     display: flex;
-    align-items: top;
 }
 
 .description{
@@ -205,10 +208,7 @@ h4{
 
 /* responsive 1277px max*/
 
-@media all and (max-device-width: 1277px){
-    .blue{
-        color: red;
-    }
+@media all and (max-device-width :1277px){
 
     #wrapper{
         width: auto;
@@ -255,7 +255,7 @@ h4{
     }
 
     #recommandation{
-        margin-bottom: 20px;
+        padding-bottom: 20px;
     }
 
     .main_title i{
@@ -314,19 +314,45 @@ h4{
     }
 
     #hobbies ul{
-        margin: 0 0 30px;
-        padding: 0;
+        margin: 0;
+        padding: 45px;
+   }
+
+}
+
+/* responsive 1040px max*/
+
+@media all and (max-device-width :1040px){
+    #photo_secret img{
+        margin: 10px;
     }
+
+    h1{
+        font-size: 4em;
+    }
+
+    #subtitle{
+        font-size: 2.5em;
+    }   
+
+}
+
+/* responsive 950px max*/
+
+@media all and (max-device-width :950px){
+
+    /*#photo_secret img{
+        display: none;
+    }*/
+}       
 
 /* responsive 480px max*/
 
-@media all and (max-device-width: 480px){
-    .blue{
-        color: green;
-    }
+@media all and (max-device-width :480px){
 
     #photo_secret img{
         border: solid 6px #0097A7;
+        margin: 0;
     }
 
     .date_target i, .date_dot i{
@@ -336,7 +362,6 @@ h4{
     .main_title{
         justify-content: center;
         padding: 0;
-        background-color: #0097A7;
     }
 
     .main_title i{
@@ -381,7 +406,7 @@ h4{
     }
 
     h3{
-        font-size: 2.9em;
+        font-size: 2.7em;
         text-align: center;
         margin: 0;
         color: #0097A7;
