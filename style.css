@@ -209,7 +209,6 @@ h4{
 }
 
 
-
 @media all and (max-width :1070px){
 
     #wrapper{
@@ -229,15 +228,14 @@ h4{
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 70px 70px 0;
     }
-
+    
     #photo_secret{
         display: contents;
     }
 
     #photo_secret img{
-        margin: 0 40px;
+        margin: 70px 70px 0;
         border: solid 4px #0097A7;
     }
 
