@@ -61,11 +61,11 @@ body{
     margin: 0;
 }
 
-#about_me{
+#about-me{
     flex-grow: 1;
 }
 
-#about_me p{
+#about-me p{
     font-size: 1.1em;
     padding: 45px;
     margin: 0;
@@ -95,11 +95,11 @@ body{
     padding: 60px 30px 20px 60px;
 }
 
-#photo_secret{
+#photo-secret{
     display: none;
 }
 
-#photo_secret img{
+#photo-secret img{
     width: 224px;
     height: 224px;
     overflow: hidden;
@@ -136,7 +136,7 @@ h1{
     color:#404040;
 }
 
-#under_profession{
+#under-profession{
     border-bottom: solid 2px #0097A7;
 }
 
@@ -166,26 +166,26 @@ h4{
     font-weight: normal;
 }
 
-.duration_target, .duration_dot{
+.duration-target, .duration-dot{
     display: flex;
     width: 35%;
 }
 
-.duration_target p, .duration_dot p{
+.duration-target p, .duration-dot p{
     font-weight: bold;
     font-size: 1.1em;
     margin-top: 0;
 }
 
-.duration_target i{
+.duration-target i{
     font-size: 1.1em;
 }
 
-.duration_dot i{
+.duration-dot i{
     font-size: 0.7em;
 }
 
-.duration_target i, .duration_dot i{
+.duration-target i, .duration-dot i{
     margin-right: 20px;
     margin-top: 5px;
 }
@@ -224,17 +224,17 @@ h4{
         padding: 0;
     }
 
-    #secret_section{
+    #secret-section{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
     
-    #photo_secret{
+    #photo-secret{
         display: contents;
     }
 
-    #photo_secret img{
+    #photo-secret img{
         margin: 70px 70px 0;
         border: solid 4px #0097A7;
     }
@@ -247,7 +247,7 @@ h4{
         font-size: 4.5em;
     }
 
-    #under_profession, .title{
+    #under-profession, .title{
         border-bottom: solid 3px #0097A7;
     }
 
@@ -263,7 +263,7 @@ h4{
         font-size: 3em;
     }
 
-    .duration_target, .duration_dot{
+    .duration-target, .duration-dot{
         width: 30%;
     }
 
@@ -271,15 +271,15 @@ h4{
         width: 70%;
     }
 
-    .duration_target i, .dot i{
+    .duration-target i, .dot i{
         margin-right: 10px;
     }
 
-    .duration_target i{
+    .duration-target i{
         font-size: 1.4em;
     }
 
-    .duration_target p, .duration_dot p{
+    .duration-target p, .duration-dot p{
         font-size: 1.4em;
     }
 
@@ -287,7 +287,7 @@ h4{
         font-size: 1.8em;
     }
 
-    #recommandation p, .description ul, h4, #contact p, #about_me p{
+    #recommandation p, .description ul, h4, #contact p, #about-me p{
         font-size: 1.5em;
     }
 
@@ -331,7 +331,7 @@ h4{
         flex-direction: column;
     }
 
-    .duration_target, .duration_dot, .description{
+    .duration-target, .duration-dot, .description{
         width: 100%;
     }
 
@@ -340,7 +340,7 @@ h4{
 
 @media all and (max-width :730px){
 
-    #photo_secret img{
+    #photo-secret img{
         margin: 0;
         width: 220px;
         height: 220px;
@@ -358,7 +358,7 @@ h4{
         text-align: center;
     }
 
-    #under_profession{
+    #under-profession{
         border-bottom: solid 3px #0097A7;
     }
 
@@ -371,7 +371,7 @@ h4{
         margin-right: 10px; 
     }
 
-    #secret_section{
+    #secret-section{
         margin: 50px 0;
     }
 
@@ -381,18 +381,18 @@ h4{
         margin: 10px;
     }
 
-    .duration_target, .duration_dot{
+    .duration-target, .duration-dot{
         width: auto;
         font-size: 1em;
         text-align: center;
     }
 
-    .duration_dot{
+    .duration-dot{
         border-top: solid 5px #0097A7;
         padding-top: 30px;
     }
 
-    .duration_target i, .duration_dot i{
+    .duration-target i, .duration-dot i{
         display: none;
     }
 
@@ -441,7 +441,7 @@ h4{
         margin-bottom: 0px;
     }
 
-    #contact p, #about_me p, #hobbies ul{
+    #contact p, #about-me p, #hobbies ul{
         margin: 0px;
     }
 
@@ -458,7 +458,7 @@ h4{
         font-size: 1.8em;
     }
 
-    #under_profession{
+    #under-profession{
         border-bottom: solid 3px #0097A7;
     }
 
@@ -470,7 +470,7 @@ h4{
         padding: 0;
     }
 
-    .duration_target, .duration_dot{
+    .duration-target, .duration-dot{
         font-size: 0.8em;
     }
 
@@ -486,11 +486,11 @@ h4{
         font-size: 1.2em;
     }
 
-    .duration_dot{
+    .duration-dot{
         border-top: solid 3px #0097A7;
     }
 
-    #contact p, #about_me p, #hobbies ul{
+    #contact p, #about-me p, #hobbies ul{
         padding: 20px;
     }
 
@@ -499,11 +499,11 @@ h4{
 
 @media all and (max-width :410px){
 
-    #secret_section{
+    #secret-section{
         margin: 40px 0 10px;
     }
 
-    #photo_secret img{
+    #photo-secret img{
         width: 175px;
         height: 175px;
     }
@@ -528,7 +528,7 @@ h4{
         font-size: 1.3em;
     }
 
-    #contact p, #about_me p, #hobbies ul, h4{
+    #contact p, #about-me p, #hobbies ul, h4{
         font-size: 1.2em;
     }
 
